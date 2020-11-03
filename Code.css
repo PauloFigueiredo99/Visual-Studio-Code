@@ -1,0 +1,56 @@
+header {
+    background-color: blue;
+    color: white;
+    padding: 1em;
+    grid-area: header;
+}
+
+nav {
+    background-color: yellow;
+    grid-area: nav;
+}
+
+main {
+    background-color: darkblue;
+    color: white;
+    grid-area: main;
+}
+
+aside {
+    background-color: lightgreen;
+    grid-area: aside;
+}
+
+footer {
+    background-color: darkgreen;
+    color: white;
+    grid-area: footer;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 30% 110% 10%;
+    grid-template-areas: "header header header" 
+    "nav main aside"
+    "footer footer footer";
+}
+
+.shownav {
+    height: 0.8em;
+    position: relative;
+    width: 1.25em;
+    display: block;
+    border-top: 0.2em solid white;
+    border-bottom: 0.2em solid white;
+}
+
+.shownav:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 0.3em;
+    left: 0px;
+    border-top: 0.2em solid #fff;
+}
+
