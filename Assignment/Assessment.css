@@ -58,3 +58,13 @@ transition: all ease-in-out 250ms;
 nav a:hover::before {
     width: 100%;
 }
+
+main {  
+    margin-top:5em ;
+    margin-left:6em ;
+    margin-right:6em ;
+}
+
+h1 {
+     ;
+}
