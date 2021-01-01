@@ -8,6 +8,8 @@ header {
 
 body{
 background-color: lightblue;
+
+
 }
 
 nav {
@@ -69,5 +71,11 @@ main {
     margin-top:2em ;
     margin-left:22.5em ;
     margin-right:10em ;
+
+}
+
+aside {
+    background-color: lightblue;
+    grid-area: aside;
 
 }
