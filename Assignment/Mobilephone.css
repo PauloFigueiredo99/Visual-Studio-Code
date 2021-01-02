@@ -1,0 +1,26 @@
+nav {
+    display: none;
+}
+
+header {
+    background-color: lightblue;
+    color: black;
+    display: block;
+    font-size: 4em;
+    text-align: center;
+}
+body {
+    background-color: lightblue;    
+}
+
+.imagehomepage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.imageportfolio {
+    margin-top:2em ;
+    margin-left:5em ;
+    margin-right:10em ;
+}

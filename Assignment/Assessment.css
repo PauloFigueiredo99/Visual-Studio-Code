@@ -8,6 +8,14 @@ header {
 
 body{
 background-color: lightblue;
+display: grid;
+grid-template-columns: 100%;
+grid-template-rows: 10%;
+grid-template-areas: 
+"header" 
+"nav"
+"main"
+"footer";
 
 
 }
@@ -16,6 +24,7 @@ nav {
 float: left;
 background-color:lightgreen;
 color: white;
+
 }
 
 nav ul {
@@ -68,9 +77,9 @@ main {
 }
 
 .imagehomepage {
-    margin-top:2em ;
-    margin-left:22.5em ;
-    margin-right:10em ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
 
 }
 
