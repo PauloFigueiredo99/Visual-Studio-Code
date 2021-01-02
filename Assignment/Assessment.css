@@ -67,7 +67,7 @@ main {
     margin-right:6em ;
 }
 
-.image {
+.imagehomepage {
     margin-top:2em ;
     margin-left:22.5em ;
     margin-right:10em ;
@@ -84,4 +84,10 @@ main {
     content: "";
     display: table;
     clear: both;
+}
+
+.imageportfolio {
+    margin-top:2em ;
+    margin-left:5em ;
+    margin-right:10em ;
 }
