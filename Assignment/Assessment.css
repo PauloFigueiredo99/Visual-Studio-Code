@@ -10,7 +10,7 @@ body{
 background-color: lightblue;
 display: grid;
 grid-template-columns: 100%;
-grid-template-rows: 9% 7% 50%;
+grid-template-rows: 9% 7% 50% 10%;
 grid-template-areas: 
 "header" 
 "nav"
