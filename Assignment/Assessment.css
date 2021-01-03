@@ -10,7 +10,7 @@ body{
 background-color: lightblue;
 display: grid;
 grid-template-columns: 100%;
-grid-template-rows: 9% 7% 50% 10%;
+grid-template-rows: 10% 0% 12% 10%;
 grid-template-areas: 
 "header" 
 "nav"
@@ -72,7 +72,6 @@ nav a:hover::before {
 }
 
 main {  
-    margin-top:5em ;
     margin-left:6em ;
     margin-right:6em ;
 }
@@ -99,4 +98,19 @@ main {
     margin-top:2em ;
     margin-left:5em ;
     margin-right:10em ;
+}
+
+form {
+    display:grid;
+    width: 25em;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    grid-gap: 0.5em;
+    margin: auto;
+    
+
+}
+
+.submit{
+    grid-column: 2;
 }
